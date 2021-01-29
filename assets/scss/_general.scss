@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: $font;
+  color: #000;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}
+
+em {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+sup {
+  vertical-align: super;
+  font-size: .5em;
+}
+
+.hidden {
+  display: none;
+}
