@@ -1,7 +1,7 @@
 var syntax       = 'scss',
     gulp         = require('gulp'),
     browserSync  = require('browser-sync'),
-    sass         = require('gulp-sass'),
+    sass         = require('gulp-sass')(require('sass')),
     cleancss     = require('gulp-clean-css'),
     autoprefixer = require('gulp-autoprefixer'),
     rename       = require('gulp-rename'),
